@@ -1,0 +1,32 @@
+header{
+    background-color: #e3d6b2ff;
+}
+header nav{
+    background-color: #7a592fff;
+    text-align: center;
+}
+
+header nav a{
+    color: #e3d6b2ff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+h1{
+    color:#092641ff;
+    background-color: #e3d6b2ff;
+}
+
+body{
+    background-color: #e3d6b2ff;
+}
+
+footer{
+    background-color: #7a592fff;
+    text-align: center;
+}
+
+footer a{    
+    color: #e3d6b2ff;
+    text-decoration: none;
+}

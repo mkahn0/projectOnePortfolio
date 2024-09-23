@@ -1,32 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background-color: #e3d6b2ff;
 }
+
 header nav{
     background-color: #7a592fff;
     text-align: center;
 }
 
+header nav img{
+    width: 4%;
+    display: block;
+    padding-left: 30px;
+}
+
 header nav a{
     color: #e3d6b2ff;
     font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+    border:1px solid #e3d6b2ff;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 5px;
 }
 
 h1{
     color:#092641ff;
     background-color: #e3d6b2ff;
+    font-family: 'Yeseva One', serif;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 body{
     background-color: #e3d6b2ff;
 }
 
+section{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.bio{
+    display:inline;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
 footer{
     background-color: #7a592fff;
     text-align: center;
+    padding-bottom: 3px;
 }
 
 footer a{    
     color: #e3d6b2ff;
+    font-family: 'Yeseva One', serif;
+    font-size: 12px;
     text-decoration: none;
+}
+
+/* make the inspo page into column image grid thing?
+*/
+
+/* *****top 5s page***** */
+h2{
+    font-family: 'Yeseva One', serif;
+    font-size: 20px;
+    color:#092641ff;
+}
+
+li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.3
+}
+
+dd{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.3
+}
+
+dt img{
+    width: 500px;
+    display: inline-block;
+}
+
+/* *****inspo pg***** */
+.person{
+    font-family: 'Yeseva One', serif;
+    font-size: 20px;
+    color:#092641ff;
+}
+body section a{
+    text-decoration: none;
+}
+
+section a img{
+    width: 500px;
+    display: inline-block;
 }

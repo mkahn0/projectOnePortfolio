@@ -15,7 +15,7 @@ header nav{
 header nav img{
     width: 4%;
     display: block;
-    padding-left: 30px;
+    padding-left: 2%;
 }
 
 header nav a{
@@ -28,18 +28,16 @@ header nav a{
     display: inline-block;
     border:1px solid #e3d6b2ff;
     padding-top: 4px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-bottom: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 1.5%;
 }
 
 h1{
     color:#092641ff;
-    background-color: #e3d6b2ff;
     font-family: 'Yeseva One', serif;
     font-size: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 2%;
 }
 
 body{
@@ -47,13 +45,7 @@ body{
 }
 
 section{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-}
-
-.bio{
-    display:inline;
+    padding-bottom: 2%;
 }
 
 p{
@@ -74,6 +66,31 @@ footer a{
     font-size: 12px;
     text-decoration: none;
 }
+
+/* *****home pg***** */
+#bio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: left;
+    align-items:flex-end;
+    justify-content: flex-start;
+    column-gap: 5px;
+}
+
+#portrait{
+    margin-left:3%;
+}
+
+#about{
+    width: 500px;
+    margin-left:3%
+}
+
+
+
+
 
 /* make the inspo page into column image grid thing?
 */

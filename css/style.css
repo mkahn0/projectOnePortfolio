@@ -58,6 +58,11 @@ header nav img{
     margin: left;
 }
 
+header nav a:hover{
+    color: #7a592fff;
+    background-color: #e3d6b2ff;
+}
+
 /* *************** general formatting (all pgs) *************** */
 
 h1{
@@ -79,7 +84,7 @@ section{
 
 p{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.3;
     padding-bottom: 5px;
 }
@@ -106,11 +111,12 @@ footer a{
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
-    margin: left;
+    margin: auto;
     align-items:flex-end;
     justify-content: flex-start;
-    column-gap: 5px;
+    column-gap: 3%;
     padding-top: 20px;
+    min-width: 80%;
 }
 
 /*#portrait{
@@ -119,7 +125,8 @@ footer a{
 
 #about{
     width: 500px;
-    margin-left:3%
+    /* margin-left:3%; */
+    min-width: 350px;
 }
 
 /* make the inspo page into column image grid thing?
@@ -130,27 +137,93 @@ h2{
     font-family: 'Yeseva One', serif;
     font-size: 20px;
     color:#092641ff;
+    padding-bottom: 8px;
 }
 
 li{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.3
+    font-size: 16px;
+    line-height: 1.3;
+    list-style-position: inside;
 }
 
 dd{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.3
-}
-
-dt img{
-    width: 500px;
-    display: inline-block;
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: center;
 }
 
 .notindex{
     padding-top: 15px;
+    text-align: center;
+}
+
+#lists{
+    /* background-color: blue; */
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    margin-bottom: 40px;
+    min-width: 100%;
+    justify-content: center;
+}
+
+#ordered{
+    /* background-color: pink; */
+    border: 8px double #092641ff;
+    margin: 8px;
+    padding: 15px;
+}
+
+#unordered{
+    /* background-color: greenyellow; */
+    border: 8px double #092641ff;
+    margin: 8px;
+    padding: 15px;
+}
+
+dt img{
+    width: 450px;
+    border: 5px solid #092641ff;
+}
+
+#bobapics{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+#boba1{
+    /* background-color: green; */
+    padding: 10px;
+}
+
+#boba2{
+    /* background-color: green; */
+    padding: 10px;
+}
+
+#boba3{
+    /* background-color: green; */
+    padding: 10px;
+}
+
+#boba4{
+    /* background-color: green; */
+    padding: 5px;
+}
+
+#boba5{
+    /* background-color: green; */
+    padding: 5px;
+}
+
+#bobatitle{
+    text-align: center;
 }
 
 /* *************** inspo pg *************** */
@@ -158,7 +231,6 @@ dt img{
     font-family: 'Yeseva One', serif;
     font-size: 20px;
     color:#092641ff;
-    padding-top: 15px;
     padding-bottom: 3px;
 }
 body section a{
@@ -171,7 +243,32 @@ body section a{
 
 /* STYLE TOP 5 PG IMGS WITH SIMILAR STYLE AS THIS BELOW */
 .inspoimg{
-    display: inline;
-    width: 30%;
+    /* display: inline; */
+    width: 300px;
     border: 5px solid #092641ff;
+}
+
+.art{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    align-items:center;
+    justify-content:center;
+}
+
+hr{
+    margin-top: 3%;
+    margin-bottom: 0.5%;
+    border-top: 2px solid #092641ff;
+}
+
+#inspopgspanbody{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#headerinspopg{
+    padding-bottom: 3%
 }

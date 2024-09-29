@@ -126,6 +126,9 @@ footer a{
     padding-bottom: 3%;
 }
 
+#portrait{
+    border: 5px solid #092641ff;
+}
 /* *************** top 5s page *************** */
 h2{
     font-family: 'Yeseva One', serif;
